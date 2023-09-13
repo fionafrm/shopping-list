@@ -7,7 +7,7 @@ from django.core import serializers
 from main.models import Product
 # Create your views here.
 
-data = Product.objects.filter(pk=id)
+# data = Product.objects.filter(pk=id)
 
 def show_main(request):
     products = Product.objects.all()
